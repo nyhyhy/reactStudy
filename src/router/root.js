@@ -22,6 +22,7 @@ const root = createBrowserRouter([
         element: <Suspense fallback={Loading}><Test/></Suspense>
     },
     {
+
         path: "test2",
         element: <Suspense fallback={Loading}><Test2/></Suspense>
     }
