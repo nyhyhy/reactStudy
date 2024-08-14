@@ -4,7 +4,7 @@ const Mainpage = () => {
     return (
         <div className=" text-3xl">
             <div>Main page</div>
-            <div><Link to={'/about'}>Go Main Page!</Link></div>
+            <div><Link to={'/about'}>Go About Page!</Link></div>
         </div>
     );
 }
